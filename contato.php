@@ -78,6 +78,7 @@
                     <div class="local">
                         <div class="localizacao">
                             <h2>Localização</h2>
+<<<<<<< HEAD
                         <div class="local sprite"></div>
                         <div class="tel sprite"></div>
                         <p>
@@ -91,6 +92,13 @@
                         </p>
                         <div class="mail sprite"></div>
                         <a href="mailto:contato@demolidoratratofeito.com.br?Subject=Contato">Mande-nos um e-mail</a>
+=======
+                            <p>Av. Piraporinha, 1855
+                            <br>CEP: 09951-444 - Piraporinha
+                            <br>Diadema / SP</p>
+                            <p>(11) 4067-1847</p>
+                            <a href="#">Mande-nos um e-mail</a>
+>>>>>>> 89e7b0a84a74de8760a68a8ecbf51fa937a41d52
                         </div>
                         <div class="mapagoogle">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3653.5703530422693!2d-46.5857744!3d-23.6913181!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4385075a64c3%3A0xa439c11fc53f9031!2sAv.+Piraporinha%2C+1855+-+Vila+Nogueira%2C+Diadema+-+SP%2C+Rep%C3%BAblica+Federativa+do+Brasil!5e0!3m2!1spt-BR!2sus!4v1409160763651" width="350" height="355" frameborder="0" style="border:0"></iframe>

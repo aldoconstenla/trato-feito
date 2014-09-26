@@ -396,15 +396,23 @@ h2 {
     width: 220px;
     margin-bottom: 40px;
     float: left;
+<<<<<<< HEAD
     position: relative;
+=======
+>>>>>>> 89e7b0a84a74de8760a68a8ecbf51fa937a41d52
 }
 
 .localizacao a {
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 .localizacao p, .localizacao a {
     margin: 10px 0 10px 17px;
+=======
+.localizacao p {
+    margin: 10px 0;
+>>>>>>> 89e7b0a84a74de8760a68a8ecbf51fa937a41d52
 }
 
 .btn {
@@ -430,6 +438,7 @@ h2 {
     background-position-y: -33px;
 }
 
+<<<<<<< HEAD
 .sprite {
     width: 18px;
     height: 18px;
@@ -447,6 +456,8 @@ h2 {
     background-position: 0 -36px;
 }
 
+=======
+>>>>>>> 89e7b0a84a74de8760a68a8ecbf51fa937a41d52
 /*fim do TEXTO*/
 
 /*inicio da MINIGALERIA*/
@@ -659,7 +670,10 @@ h2 {
 .linha a {
     display: block;
     position: relative;
+<<<<<<< HEAD
     text-decoration: none;
+=======
+>>>>>>> 89e7b0a84a74de8760a68a8ecbf51fa937a41d52
 }
 
  .linha a:before {

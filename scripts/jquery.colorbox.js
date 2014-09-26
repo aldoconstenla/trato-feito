@@ -59,11 +59,19 @@
 
 		// internationalization
 		current: "{current} de {total}",
+<<<<<<< HEAD
 		previous: "anterior",
 		next: "próximo",
 		close: "fechar",
 		xhrError: "O carregamento deste conteúdo falhou.",
 		imgError: "O carregamento da imagem falhou.",
+=======
+		previous: "previous",
+		next: "next",
+		close: "close",
+		xhrError: "This content failed to load.",
+		imgError: "This image failed to load.",
+>>>>>>> 89e7b0a84a74de8760a68a8ecbf51fa937a41d52
 
 		// accessbility
 		returnFocus: true,

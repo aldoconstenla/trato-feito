@@ -42,6 +42,7 @@
 
                     <div class="localizacao inicial">
                         <h2>Localização</h2>
+<<<<<<< HEAD
                         <div class="local sprite"></div>
                         <div class="tel sprite"></div>
                         <p>
@@ -55,6 +56,13 @@
                         </p>
                         <div class="mail sprite"></div>
                         <a href="mailto:contato@demolidoratratofeito.com.br?Subject=Contato">Mande-nos um e-mail</a>
+=======
+                        <p>Av. Piraporinha, 1855
+                        <br>CEP: 09951-444 - Piraporinha
+                        <br>Diadema / SP</p>
+                        <p>(11) 4067-1847</p>
+                        <a href="#">Mande-nos um e-mail</a>
+>>>>>>> 89e7b0a84a74de8760a68a8ecbf51fa937a41d52
                         
                     </div>
 

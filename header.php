@@ -8,9 +8,13 @@
 
         <title>Demolidora Trato Feito</title>
 
+<<<<<<< HEAD
         <meta name="description" content="Demolidora Trato Feito - Demolição de grandes e pequenas edificações. Com tecnologia, inovação e profissionais qualificados, a DTF se especializou em diversas metodologias em demolição, sendo assim uma das pioneiras no setor">
 
         <meta name="keywords" content="Demolidora, Demolição, Demolicao, Trato Feito, Terraplanagem, Terraplenagem, Residencial, Industrial, Britagem, Concreto, Armado">
+=======
+        <meta name="description" content="">
+>>>>>>> 89e7b0a84a74de8760a68a8ecbf51fa937a41d52
 
         <meta name="viewport" content="width=device-width">
 
