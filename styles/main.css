@@ -1,0 +1,1135 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+p, ul, body, h1 {
+    padding: 0;
+    margin: 0;
+}
+
+@charset "UTF-8";
+
+@font-face {
+  font-family: "untitled-font-1";
+  src:url("fonts/untitled-font-1.eot");
+  src:url("fonts/untitled-font-1.eot?#iefix") format("embedded-opentype"),
+    url("fonts/untitled-font-1.woff") format("woff"),
+    url("fonts/untitled-font-1.ttf") format("truetype"),
+    url("fonts/untitled-font-1.svg#untitled-font-1") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "untitled-font-1" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "untitled-font-1" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+  content: "a";
+}
+
+
+
+body{overflow-x:hidden;}
+
+.conteudo {
+    margin: 0 auto;
+    font-family: 'Istok Web', sans-serif;
+    background-color: #ebebeb;
+}
+
+.centralizar {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/*inicio do HEADER*/
+
+.header {
+    height: 100px;
+    position: relative;
+}
+
+.logo {
+    width: 275px;
+}
+
+.logoimg {
+    height: 84px;
+    float: left;
+}
+
+.logoimg, .logotext {
+    padding: 8px 0 0 8px;
+}
+
+.logotext {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    margin-left: 95px;
+}
+
+.logotext p:first-child {
+    color: #505050;
+}
+
+.logotext p:last-child {
+    color: #448bc5;
+    line-height: 30px;
+}
+
+.logotext strong {
+    color: #2667a7;
+    font-weight: normal;
+}
+
+.header p {
+    padding: -10px;
+}
+
+.header .menu {
+    position: absolute;
+    right: 0px;
+    top: 35px;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 0 0 0 0;
+    text-transform: uppercase;
+    color: #666666;
+    font-weight: bold;
+    font-size: 17px;
+    transition:all 0.2s inline;
+    -webkit-transition:all 0.2s inline;
+    -moz-transition:all 0.2s inline;
+}
+
+.menu li {
+    float: left;
+    list-style-type: none;
+}
+
+
+/*
+.menu li:after {
+    content: "|";
+    margin: 0 15px;
+    color: #767575;
+}
+
+.menu li:last-child:after {
+    content: "";
+    margin: 0;
+}*/
+
+.menu a:hover {
+    color: #1194b2;
+} 
+
+.menu li {
+    border-right:1px solid #767575;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+
+.menu li.ultimo { 
+    border-right:0;
+    padding-right: 0px;
+}
+
+
+/*fim do HEADER*/
+
+/*inicio do BANNER*/
+
+.banner {
+    height: 477px;
+    font-family: 'Cabin', sans-serif;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.banner p {
+    font-size: 20px;
+}
+
+.bannerImg {
+    width: 100%;
+    height: 100%; 
+    position: absolute;
+    top: 0;
+    display: block;
+    background-size: cover;
+    -ms-behavior: url(/backgroundsize.min.htc);
+    background-position: center;
+    opacity: 0;
+    -webkit-transform:scale(1.2);
+    -ms-transform:scale(1.2);
+}
+
+.bannerImg, .bannerImg.active {
+    transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+}
+
+.bannerImg.active {
+    opacity: 1;
+    -webkit-transform:scale(1);
+    -ms-transform:scale(1);
+}
+
+.bullets {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 110px;
+    margin-left: -46px;
+}
+
+.bullets a {
+    text-indent: -9999px;
+    background: url(../images/bulletbg.png) no-repeat;
+    width: 18px;
+    height: 18px;
+    padding-right: 10px;
+    display: inline-block;
+}
+
+.bullets a.active {
+    background: url(../images/activebulletbg.png) no-repeat;
+}
+
+.keeper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -85px;
+    margin-left: -400px;
+    text-align: center;
+    height: 323px; 
+}
+
+.keeper p {
+    padding: 20px 0 30px 0;
+}
+
+.keeper>a {
+    text-decoration: none;
+    background: url(../images/orcamentobtn.png) no-repeat;
+    width: 269px;
+    height: 50px;
+    overflow: hidden;
+    display: inline-block;
+    line-height: 50px;
+}
+
+.keeper>a:hover {
+    background: url(../images/orcamentobtn.png) no-repeat;
+    background-position-y: -50px;
+}
+
+/*fim do BANNER*/
+
+/*inicio do TEXTO*/
+.textos {
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.textos p, .textos li, .localizacao a, label {
+    font-size: 15px;
+    color: #8b8b8b;
+}
+
+.empresa, .servicos {
+    float: left;
+}   
+
+.empresa {
+    width: 410px;
+    height: 275px;
+
+}
+
+.servicos {
+    width: 260px;
+    margin-left: 55px;
+    height: 275px;
+}
+
+.servicos, .empresa {
+    position: relative;
+}
+
+.localizacao.inicial {
+    margin-left: 35px;
+}
+
+.localizacao {
+    width: 220px;
+    margin-bottom: 40px;
+    float: left;
+}
+
+.localizacao a {
+    text-decoration: none;
+}
+
+.localizacao p {
+    margin: 10px 0;
+}
+
+.btn {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    text-decoration: none;
+    color: #1194b2;
+    background: url(../images/leiabtn.png) no-repeat;
+    display: inline-block;
+    width: 102px;
+    height: 33px;
+    line-height: 33px;
+    text-indent: 17px;
+}
+
+.btn.gal {
+    text-indent: 4px;
+}
+
+.btn:hover, .send_btn:hover {
+    background: url(../images/leiabtn.png) no-repeat;
+    background-position-y: -33px;
+}
+
+/*fim do TEXTO*/
+
+/*inicio da MINIGALERIA*/
+
+.minigaleria li, .galeriaimg li {
+    list-style-type: none;
+}
+
+.minigaleria {
+    width: 844px;
+    height: 210px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto 45px auto;
+}
+
+.minigaleria > ul {
+    width: 10000px;
+}
+
+.minigaleria > ul li {
+    list-style: none;
+    float: left;
+    width: 179px;
+    height: 144px;
+    margin-right: 10px;
+    border: 6px solid #FFFFFF; 
+    position: relative;
+}
+
+.minigaleria > ul li:first-child {
+    margin-left: 25px;
+}
+
+.minigaleria li > a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+}
+
+.arrow1 {
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index:2;
+}
+
+.arrow2 {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    z-index:2;
+}
+
+.galeria_home h2 {
+    margin-left: 80px;
+}
+
+.minigaleria li {
+    overflow: hidden;
+}
+
+/*fim da MINIGALERIA */
+
+/*inicio do FOOTER*/
+
+.bottom.menu a:hover {
+    color: #FFFFFF;
+}
+
+.footer {
+    background-color: #232323;
+}
+
+.bottom.menu {
+    width: 475px;
+    height: 45px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.copyright {
+    color: #919191;
+    width: 550px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 18px;
+}
+
+.copycont {
+    height: 75px;
+    background-color: #191919;
+}
+
+/*fim do FOOTER*/
+
+/*inicio do MINIBANNER*/
+
+
+.minibanner {
+    background: url(../images/minibanner.png) no-repeat;
+    background-size: cover;
+    -ms-behavior: url(/backgroundsize.min.htc);
+    background-position: center;
+    height: 131px;
+}
+
+.minibanner p {
+    font-family: 'Cabin', sans-serif;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-right: 670px;
+    padding-top: 50px;
+    display: inline-block;
+}
+
+.minibanner a {
+    text-decoration: none;
+    color: #FFF;
+    padding: 7px 15px;
+    background-color: #2667a7;
+    margin-bottom: 0px;
+}
+
+.minibanner a:hover {
+    background-color: #448bc5;
+}
+
+/*fim do MINIBANNER*/
+
+
+/*inicio dos CONTEUDOS*/
+
+.textos {
+    margin-left: 20px;
+}
+
+.textos.company p {
+    margin-bottom: 25px;
+}
+
+.textos.company p:last-child {
+    margin-bottom: 80px;
+}
+
+.empimg {
+    width:875px;
+    margin: 20px auto 20px auto;
+}
+
+.empimg img {
+    margin-right: 12px;
+    border: 7px solid #FFFFFF;
+}
+
+.empimg img:last-child {
+    margin-right: 0px;
+}
+
+.services ul {
+    margin-top: 45px;
+}
+
+.services ul li{
+    margin-left: 20px;
+}
+
+.services img {
+    position: absolute;
+    top: 0;
+    right: 95px;
+}
+
+.servkeeper {
+    height: 350px;
+    position: relative;
+}
+
+.servkeeper img {
+    border: 7px solid #FFFFFF;
+}
+
+/*fim dos CONTEUDOS*/
+
+/*inicio da GALERIA*/
+
+.galeriaimg .linha {
+    width: 1000px;
+    text-align: center;
+}
+
+.galeriaimg .linha li {
+    margin: 40px 28px 0 0;
+    display: inline-block;
+    border: 7px solid #FFFFFF;
+    position: relative;
+}
+
+.galeriaimg .linha li:last-child {
+    margin-right: 0;
+}
+
+.galeriaimg { 
+    margin-bottom: 65px;
+ }
+
+.linha a {
+    display: block;
+    position: relative;
+}
+
+ .linha a:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -7px;
+    left: -7px;
+    background-color: #000000;
+    border: 7px solid #000000;
+    opacity: 0;
+    transition:all 0.1s linear;
+    -webkit-transition:all 0.1s linear;
+    -ms-transition:all 0.1s linear;
+ }
+
+ .search {
+    margin: 63px 62px;
+    position: absolute;
+ }
+
+ .linha a:hover:before {
+    opacity: 0.6;
+ }
+
+ .linha a:after {
+    font-family: "untitled-font-1";
+    font-size: 75px;
+    color: #FFF;
+    content: 'a';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -38px;
+    margin-top: -46px;
+    opacity: 0;
+    transition:all 0.1s linear;
+    -webkit-transition:all 0.1s linear;
+    -ms-transition:all 0.1s linear;
+ }
+
+.linha a:hover:after {
+    opacity: 0.5;
+}
+
+.linha li:nth-child(4n+4) {
+    margin-right: 0;
+}
+
+/*fim da GALERIA*/
+
+/*inicio dos VIDEOS */
+
+.videos {
+    margin: 20px 0 65px 0;
+    text-align: center;
+}
+
+.videos li {
+    list-style-type: none;
+    float: left;
+    display: inline-block;
+    border: 7px solid #FFFFFF;
+    margin-top: 20px;
+    position: relative;
+}
+
+.videos li:nth-child(3n-1) {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.play_btn {
+    width: 35px;
+    height: 45px;
+    background: url(../images/vid_play_.png) no-repeat;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -22px;
+    margin-left: -17px;
+}
+
+
+
+/*fim dos VIDEOS */
+
+/*inicio do LIGHTBOX*/
+
+/*.overlay {
+    background: #000000;
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+}
+
+.lightbox {
+    background-color: #FFF;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 300;
+    display: none;
+}
+
+.lightbox .close {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: -5px;
+    right: -9px;
+    font-size: 25px;
+}
+
+.lightbox .close:before {
+    content: 'e';
+
+}
+
+.nav, .close {
+    font-family: "untitled-font-1";
+    color: #FFF;
+    border: 0; 
+    border-radius: 50%;
+    background-color: #728bc5;
+}
+
+.lightbox .nav {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 50%;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.nav.right {
+    right: -10px;
+    text-indent: 3px;
+}
+
+.nav.right:before {
+    content: 'b';
+}
+
+.nav.left {
+    left: -10px; 
+    text-indent: -3px;   
+}
+
+.nav.left:before {
+    content: 'c';
+}
+
+.lightbox img {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.overlay, .lightbox {
+    display: none;
+}
+
+.overlay.active, .lightbox.active {
+    display: block;
+}*/
+
+/*fim do LIGHTBOX*/
+
+/*inicio do FORMULARIO*/
+
+.formulario {
+    width: 555px;
+    float: left;
+    position: relative;
+}
+
+.formulario label {
+    display: inline-block;
+    margin: 12px 0 4px 0;
+    width: 188px;
+}
+
+.campo {
+    /*position: absolute;
+    right: 40px;*/
+    width: 325px;
+    margin-top: 6px;
+}
+
+#details, #duvidas, #msg {
+    width: 510px;
+    height: 85px;
+}
+
+.form_serv, .form_msg {
+    display: none;
+}
+
+.send_btn {
+    text-decoration: none;
+    color: #1194b2;
+    background: url(../images/leiabtn.png) no-repeat;
+    height: 33px;
+    width: 102px;
+    border: 0;
+    margin: 15px 0 25px 415px;
+}
+
+form .nowidth {
+    width: 510px;
+}
+
+#tipoo {
+    margin-left: 15px;
+}
+
+form .radiobtn {
+    width: 70px;
+}
+
+.form_serv.active, .form_msg.active {
+    display: block;
+}
+
+#form-messages {
+    text-align: center;
+    margin-bottom: 25px;
+    width: 502px;
+    position: absolute;
+    bottom: -2px;
+}
+
+#form-messages.success {
+  padding: 7px;
+  margin-bottom: 25px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #468847;
+  background-color: #dff0d8;
+  border: 1px solid #d6e9c6;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+#form-messages.error {
+  padding: 7px;
+  margin-bottom: 0.75rem;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #b94a48;
+  background-color: #f2dede;
+  border: 1px solid rgba(185, 74, 72, 0.3);
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.aguarde {
+    display: none;
+    position: absolute;
+    bottom: 30px;
+    right: 155px;
+}
+
+.aguarde.active {
+    display: block;
+}
+
+label.error {
+/*    margin-top: 0px;
+    position: absolute;
+    right: 45px;
+    background-color: #FA8072;
+    color: #FFF;
+    border: 1px solid #000;
+    padding: 0px 5px;*/
+    margin-top: 0px;
+    margin-left: 195px;
+    font-style: italic;
+    color: #FF0000;
+    font-size: 13px;
+    width: 325px;
+}
+
+.campo.error {
+    /*background-color: #FA8072;*/
+
+}
+
+#msg.error, #details.error {
+    border: 1px solid #FF0000;
+}
+
+/*fim do FORMULARIO*/
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+
