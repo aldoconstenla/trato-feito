@@ -670,10 +670,7 @@ h2 {
 .linha a {
     display: block;
     position: relative;
-<<<<<<< HEAD
     text-decoration: none;
-=======
->>>>>>> 89e7b0a84a74de8760a68a8ecbf51fa937a41d52
 }
 
  .linha a:before {
