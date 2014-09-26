@@ -659,6 +659,7 @@ h2 {
 .linha a {
     display: block;
     position: relative;
+    text-decoration: none;
 }
 
  .linha a:before {
